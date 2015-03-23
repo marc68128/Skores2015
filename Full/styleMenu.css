@@ -1,0 +1,290 @@
+#menuBig, #menuSmall{
+	position: absolute;
+	height: 100%; 
+	width: 100%;
+	z-index: 20;
+}
+#menuSmall{
+	visibility: hidden;
+}
+
+/*
+ * 
+ *  *************************************************************** MENU GRANDE FENETRE *************************************************************************************
+ * 
+ */
+
+#logo{
+	position: absolute; 
+	bottom: 20px; 
+	left: 50%;
+	margin-left:-135px; 
+	width:270px; 
+	z-index: 2;  
+	cursor: pointer;
+	opacity: 0.8; 
+}
+#logo:hover{
+	opacity: 1;
+	
+}
+#logoImage, #menu0-0Image, #menu0-1Image, #menu0-2Image, #menu1-0Image, #menu1-1Image, #menu1-2Image{
+	width: 100%;
+}
+
+#menu0-0{
+	position: absolute; 
+	bottom: 195px; 
+	left: 50%;
+	margin-left:-312px; 
+	width:220px; 
+	z-index: 2;  
+	cursor: pointer;
+	opacity: 0.8;
+
+}
+#menu0-1{
+	position: absolute; 
+	bottom: 125px; 
+	left: 50%;
+	margin-left:-319px; 
+	width:188px; 
+	z-index: 2;  
+	cursor: pointer;
+	opacity: 0.8;
+
+}
+#menu0-2{
+	position: absolute; 
+	bottom: 57px; 
+	left: 50%;
+	margin-left:-313px; 
+	width:220px; 
+	z-index: 2;  
+	cursor: pointer;
+	opacity: 0.8;
+}
+#menu1-0{
+	position: absolute; 
+	bottom: 195px; 
+	left: 50%;
+	margin-left:92px; 
+	width:220px; 
+	z-index: 2;  
+	cursor: pointer;
+	opacity: 0.8;
+}
+#menu1-1{
+	position: absolute; 
+	bottom: 125px; 
+	left: 50%;
+	margin-left:130px; 
+	width:188px; 
+	z-index: 2;  
+	cursor: pointer;
+	opacity: 0.8;
+}
+#menu1-2{
+	position: absolute; 
+	bottom: 57px; 
+	left: 50%;
+	margin-left:93px; 
+	width:220px; 
+	z-index: 2;  
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+#menu0-0:hover, #menu0-1:hover, #menu0-2:hover, #menu1-1:hover, #menu1-0:hover, #menu1-2:hover{
+	opacity: 1;
+}
+
+#menu0-0 span{
+	font-family: handsean; 
+	font-size:20px;
+	color: #965050; 
+	position: absolute; 
+	top: 15px; 
+	left: 65px;
+}
+#menu0-1 span{
+	font-family: handsean; 
+	font-size:20px;
+	color: #965050; 
+	position: absolute; 
+	top: 15px; 
+	left: 23px;
+}
+#menu0-2 span{
+	font-family: handsean; 
+	font-size:20px;
+	color: #965050; 
+	position: absolute; 
+	top: 15px; 
+	left: 60px;
+}
+#menu1-0 span{
+	font-family: handsean; 
+	font-size:20px;
+	color: #965050; 
+	position: absolute; 
+	top: 15px; 
+	left: 68px;
+}
+#menu1-1 span{
+	font-family: handsean; 
+	font-size:20px;
+	color: #965050; 
+	position: absolute; 
+	top: 15px; 
+	left: 50px;
+}
+#menu1-2 span{
+	font-family: handsean; 
+	font-size:20px;
+	color: #965050; 
+	position: absolute; 
+	top: 15px; 
+	left: 50px;
+}
+
+
+
+/*
+ * 
+ *  *************************************************************** MENU PETITE FENETRE *************************************************************************************
+ * 
+ */
+
+
+#menuSmallHome{
+	position: absolute; 
+	z-index:5;
+	bottom: -10px; 
+	left: 15%; 
+	width: 10%;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#menuSmallHome span{
+	font-family: handsean; 
+	font-size:13px;
+	color: #965050; 
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	margin-left:-26px; 
+	margin-top: -16px;
+}
+
+#menuSmallBio{
+	position: absolute; 
+	z-index:5;
+	bottom: -10px; 
+	left: 27%; 
+	width: 10%;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#menuSmallBio span{
+	font-family: handsean; 
+	font-size:13px;
+	color: #965050; 
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	margin-left:-16px; 
+	margin-top: -16px;
+}
+
+#menuSmallLineUp{
+	position: absolute; 
+	z-index:5;
+	bottom: -10px; 
+	left: 39%; 
+	width: 10%;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#menuSmallLineUp span{
+	font-family: handsean; 
+	font-size:13px;
+	color: #965050; 
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	margin-left:-28px; 
+	margin-top: -16px;
+}
+
+
+#menuSmallPhoto{
+	position: absolute; 
+	z-index:5;
+	bottom: -10px; 
+	left: 51%; 
+	width: 10%;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#menuSmallPhoto span{
+	font-family: handsean; 
+	font-size:13px;
+	color: #965050; 
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	margin-left:-28px; 
+	margin-top: -16px;
+}
+
+
+#menuSmallTour{
+	position: absolute; 
+	z-index:5;
+	bottom: -10px; 
+	left: 63%; 
+	width: 10%;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#menuSmallTour span{
+	font-family: handsean; 
+	font-size:13px;
+	color: #965050; 
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	margin-left:-23px; 
+	margin-top: -16px;
+}
+
+
+#menuSmallContact{
+	position: absolute; 
+	z-index:5;
+	bottom: -10px; 
+	left: 75%; 
+	width: 10%;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#menuSmallContact span{
+	font-family: handsean; 
+	font-size:13px;
+	color: #965050; 
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	margin-left:-39px; 
+	margin-top: -16px;
+}
+
+
+#menuSmallHomeImage, #menuSmallBioImage, #menuSmallContactImage, #menuSmallLineUpImage, #menuSmallPhotoImage, #menuSmallTourImage{
+	width: 100%;
+}
+
+#menuSmallHome:hover, #menuSmallBio:hover, #menuSmallContact:hover, #menuSmallLineUp:hover, #menuSmallPhoto:hover, #menuSmallTour:hover{
+	opacity: 1;
+}

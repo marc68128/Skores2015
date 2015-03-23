@@ -1,0 +1,22 @@
+html, body, #div1, #div2, #div3, #div4, #div5{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#div1 {
+    background: red;
+}
+#div2{
+    background: blue;
+}
+#div3{
+    background: green;
+}
+#div4{
+    background: pink;
+}
+#div5{
+    background: yellow;
+}

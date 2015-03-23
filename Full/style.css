@@ -1,0 +1,523 @@
+@font-face {
+    font-family: "handsean";
+    src: url('images/handsean.ttf');
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#contenu {
+    overflow: hidden;
+}
+
+#background, #backgroundA, #backgroundL, #backgroundM, #backgroundV {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#backgroundA, #backgroundL, #backgroundM, #backgroundV {
+    visibility: hidden;
+}
+
+.backgroundImage {
+    height: 100%;
+    -moz-min-width: 100%;
+    -ms-min-width: 100%;
+    -o-min-width: 100%;
+    -webkit-min-width: 100%;
+    min-width: 100%;
+}
+
+#lienFb, #lienYoutube, #lienSoundCloud {
+    position: absolute;
+    z-index: 9999;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    opacity: 0.7;
+}
+
+    #lienFb:hover, #lienYoutube:hover, #lienSoundCloud:hover {
+        opacity: 0.9;
+    }
+
+    #lienFb img, #lienYoutube img, #lienSoundCloud img {
+        height: 100%;
+        width: 100%;
+    }
+
+#lienFb {
+    left: 20px;
+}
+
+#lienYoutube {
+    left: 60px;
+}
+
+#lienSoundCloud {
+    left: 100px;
+}
+
+
+#mute {
+    z-index: 9999;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#muteImage {
+    width: 100%;
+}
+
+
+
+/*
+ * 
+ * 
+ * *********************************************************** Style Biography *************************************************************
+ * 
+ */
+
+#bio {
+    width: 800px;
+    z-index: 20;
+    position: absolute;
+    top: 10%;
+    left: 150%;
+    margin-left: -400px;
+    color: #FBFFF4;
+    font-size: 18px;
+    font-family: Candara;
+    text-align: justify;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid #965050;
+}
+
+#contentBio {
+    margin: 20px;
+}
+
+#bio h1 {
+    font-size: 45px;
+    font-family: handsean;
+    text-align: center;
+}
+
+
+
+/*
+ * 
+ * 
+ * *********************************************************** Style LineUp *************************************************************
+ * 
+ */
+
+#lineUp {
+    position: absolute;
+    top: 0px;
+    left: 110%;
+    height: 90%;
+    width: 100%;
+    z-index: 50;
+}
+
+#lineUpMarc {
+    z-index: 20;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    opacity: 0.8;
+}
+
+.text {
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.titre {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#lineUpMarcFull span, #lineUpMarcFull strong {
+    text-align: center;
+}
+
+#lineUpMarcFull {
+    z-index: 20;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: black;
+    border: 2px outset #965050;
+    border-radius: 3px;
+    width: 300px;
+    visibility: hidden;
+    color: #FBFFF4;
+    text-align: justify;
+    vertical-align: middle;
+    font-family: Candara;
+}
+
+#lineUpArnaud {
+    z-index: 20;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    opacity: 0.8;
+}
+
+#lineUpArnaudFull {
+    z-index: 20;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    background-color: black;
+    border: 2px outset #965050;
+    border-radius: 3px;
+    width: 300px;
+    visibility: hidden;
+    color: #FBFFF4;
+    text-align: justify;
+    vertical-align: middle;
+    font-family: Candara;
+}
+
+#lineUpVincent {
+    z-index: 20;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    opacity: 0.8;
+}
+
+#lineUpVincentFull {
+    z-index: 20;
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    background-color: black;
+    border: 2px outset #965050;
+    border-radius: 3px;
+    width: 300px;
+    visibility: hidden;
+    color: #FBFFF4;
+    text-align: justify;
+    vertical-align: middle;
+    font-family: Candara;
+}
+
+#lineUpLauralee {
+    z-index: 20;
+    position: absolute;
+    top: 70%;
+    right: 3%;
+    opacity: 0.8;
+}
+
+#lineUpLauraleeFull {
+    z-index: 20;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    background-color: black;
+    border: 2px outset #965050;
+    border-radius: 3px;
+    width: 300px;
+    visibility: hidden;
+    color: #FBFFF4;
+    text-align: justify;
+    vertical-align: middle;
+    font-family: Candara;
+}
+
+
+#lineUpMarc:hover, #lineUpArnaud:hover, #lineUpVincent:hover, #lineUpLauralee:hover {
+    opacity: 1;
+    background: none;
+}
+
+/*
+ * 
+ * ********************************************************Style Galerie *****************************************************
+ * 
+ */
+
+
+#Galerie {
+    z-index: 50;
+    position: absolute;
+    left: 110%;
+    width: 60%;
+    height: 80%;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+
+.fancybox {
+    width: 24%;
+    border: 2px outset #965050;
+}
+
+#img1a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 25%;
+}
+
+#img5a {
+    position: absolute;
+    top: 27%;
+    left: 0px;
+    height: 25%;
+}
+
+#img9a {
+    position: absolute;
+    top: 54%;
+    left: 0px;
+    height: 51%;
+}
+
+#img2a {
+    position: absolute;
+    top: 0px;
+    left: 25%;
+    height: 25%;
+}
+
+#img6a {
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    height: 51%;
+}
+
+#img10a {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    height: 25%;
+}
+
+#img3a {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    height: 25%;
+}
+
+#img7a {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    height: 25%;
+}
+
+#img11a {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    height: 51%;
+}
+
+#img4a {
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    height: 51%;
+}
+
+#img8a {
+    position: absolute;
+    top: 54%;
+    left: 75%;
+    height: 25%;
+}
+
+#img12a {
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    height: 25%;
+}
+
+.fancybox img {
+    height: 100%;
+    width: 100%;
+}
+
+/*
+ * 
+ * 
+ * ***************************************Style Tour**************************************
+ * 
+ */
+
+
+#Tour {
+    position: absolute;
+    left: 110%;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: black;
+    border: 2px outset #965050;
+    z-index: 30;
+    opacity: 0.9;
+    color: #FBFFF4;
+    overflow: hidden;
+}
+
+#TourContent {
+    height: 100%;
+}
+
+    #TourContent h1 {
+        text-align: center;
+        font-family: handsean;
+        font-size: 45px;
+        margin: 1%;
+        height: 13%;
+    }
+
+    #TourContent h2 {
+        text-align: center;
+        font-family: Candara;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: red;
+    }
+
+#TourlistParent {
+    height: 85%;
+    overflow: hidden;
+}
+
+#TourList {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+}
+
+#TourContent table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Candara;
+}
+
+#TourContent td {
+    width: 33%;
+    padding: 5px;
+}
+
+#TourContent table .tableRowColored {
+    background-color: #965050;
+    color: black;
+}
+
+
+/*
+ * 
+ * 
+ * ******************************************Style Contact ******************************
+ * 
+ */
+
+#Contact {
+    position: absolute;
+    left: 110%;
+    width: 60%;
+    height: 70%;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: black;
+    border: 2px outset #965050;
+    z-index: 30;
+    opacity: 0.9;
+    color: #FBFFF4;
+    overflow: hidden;
+}
+
+#ContactContent {
+    margin: 20px;
+    vertical-align: middle;
+}
+
+    #ContactContent h1 {
+        text-align: center;
+        font-family: handsean;
+        font-size: 45px;
+        margin-bottom: 80px;
+    }
+
+    #ContactContent table {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        left: -2%;
+        margin-bottom: 10px;
+    }
+
+        #ContactContent table td {
+            width: 50%;
+        }
+
+        #ContactContent table a {
+            text-decoration: none;
+            color: #965050;
+        }
+
+            #ContactContent table a:hover {
+                color: #FBFFF4;
+            }
+
+#ContactFb, #ContactSc, #ContactYt {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    left: 50%;
+    opacity: 0.8;
+}
+
+    #ContactFb:hover, #ContactSc:hover, #ContactYt:hover {
+        opacity: 1;
+    }
+
+    #ContactFb img, #ContactSc img, #ContactYt img {
+        height: 100%;
+        width: 100%;
+    }
+
+#ContactFb {
+    margin-left: -160px;
+}

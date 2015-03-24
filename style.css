@@ -1,11 +1,11 @@
-html, body, #div1, #div2, #div3, #div4, #div5{
+html, body, .section{
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
-#div1 {
+#divHome {
     background: red;
 }
 #div2{

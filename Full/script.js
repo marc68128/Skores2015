@@ -1,13 +1,13 @@
 i1 = new Image();
-i1.src = "images/bgMarc.jpg";
+i1.src = "../Content/Images/Background/bgMarc.jpg";
 i2 = new Image();
-i2.src = "images/bgArnaud.jpg";
+i2.src = "../Content/Images/Background/bgArnaud.jpg";
 i3 = new Image();
-i3.src = "images/bgVincent.jpg";
+i3.src = "../Content/Images/Background/bgVincent.jpg";
 i4 = new Image();
-i4.src = "images/bgLauralee.jpg";
+i4.src = "../Content/Images/Background/bgLauralee.jpg";
 i4 = new Image();
-i4.src = "images/bg.jpg";
+i4.src = "../Content/Images/Background/bg.jpg";
 
 var speed = 500;
 var actualPage = 0; 
@@ -71,13 +71,13 @@ $("#mute").click(function(){
 	if(mute)
 	{
 		$("#jquery_jplayer_1").jPlayer("unmute");
-	    $("#muteImage").attr("src", "images/mute.png");
+	    $("#muteImage").attr("src", "../Content/Images/Icons/mute.png");
 		mute = false;
 	}
 	else
 	{
 		$("#jquery_jplayer_1").jPlayer("mute");
-	    $("#muteImage").attr("src", "images/unmute.png");
+	    $("#muteImage").attr("src", "../Content/Images/Icons/unmute.png");
 		mute = true; 
 	}
 });
@@ -90,7 +90,7 @@ $(document).ready(function() {
         backgroundColor: "#965050",
         percentage: true,
         barHeight: 1,
-        completeAnimation: "grow",
+        completeAnimation: "grow"
     });
 	
 	$(".fancybox").fancybox(); //Galerie
@@ -98,9 +98,8 @@ $(document).ready(function() {
 	$("#jquery_jplayer_1").jPlayer({    //Vidéo Player
 		ready: function () {
 			$(this).jPlayer("setMedia", {
-				m4v: "http://theskores.fr/Video/medlayCaf.m4v",
-				ogv: "http://theskores.fr/Video/medlayCaf.ogv",
-				//webmv: "http://www.jplayer.org/video/webm/Big_Buck_Bunny_Trailer.webm",
+				m4v: "http://theskores.fr/Content/Video/medlayCaf.m4v",
+				ogv: "http://theskores.fr/Content/Video/medlayCaf.ogv",
 				poster: "http://www.jplayer.org/video/poster/Big_Buck_Bunny_Trailer_480x270.png"
 			});
 			$("#jquery_jplayer_1").jPlayer("play");

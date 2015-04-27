@@ -1,6 +1,6 @@
 @font-face {
     font-family: "handsean";
-    src: url('images/handsean.ttf');
+    src: url('../Content/Fonts/handsean.ttf');
 }
 
 html {

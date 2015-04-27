@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "handsean";
+    src: url('Content/Fonts/handsean.ttf');
+}
+
+
 html, body, .section{
     height: 100%;
     width: 100%;
@@ -5,18 +11,216 @@ html, body, .section{
     padding: 0;
 }
 
+/******************************     MENU     ***********************************/
+
+#menu{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: handsean;
+    cursor: pointer;
+    padding: 10px;
+}
+#menu:hover {
+    background-color: #000000;
+}
+    #menu img{
+        position: relative;
+        top: 3px;
+        height: 25px;
+    }
+    #menu ul{
+        visibility: hidden;
+        list-style: none;
+        margin: 0;
+        padding: 1px;
+        background: #000000;
+    }
+    #menu a{
+        color: #ffffff;
+        -webkit-transition: color 0.5s ease;
+        -moz-transition: color 0.5s ease;
+        -ms-transition: color 0.5s ease;
+        -o-transition: color 0.5s ease;
+        transition: color 0.5s ease;
+        text-decoration: none;
+    }
+    #menu a:hover{
+        color: #965050;
+        text-decoration: none;
+    }
+    #menu li{
+        font-family: Arial;
+        margin: 2px;
+        padding: 5px 2px;
+        border-radius: 5px;
+    }
+    #menu:hover ul{
+        visibility: visible;
+    }
+
+/******************************     HOME     ***********************************/
 #divHome {
     background: red;
+    overflow: hidden;
+    background-image: url(Content/Images/Background/bg.jpg);
+    background-repeat:no-repeat;
+    background-position:50% 20%;
 }
-#div2{
+    #divHome video{
+       width: 60%;
+       margin-left: 20%;
+       position: relative;
+       top: 50%;
+       transform: translateY(-50%);
+    }
+
+/******************************     BIOGRAPHY     ***********************************/
+#divBio{
+    overflow: hidden;
     background: blue;
+    background-image: url(Content/Images/Background/bg_bio.JPG);
+    background-repeat:no-repeat;
+    background-position:50% 20%;
 }
-#div3{
+    #divBio #contentBio {
+        width: 80%;
+        margin-left: 10%;
+        color: #FBFFF4;
+        font-size: 18px;
+        font-family: Candara;
+        text-align: justify;
+        background-color: rgba(0,0,0,0.7);
+        border: 2px solid #965050;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 20px;
+        padding-top: 0;
+    }
+    #divBio h1 {
+        font-size: 45px;
+        font-family: handsean;
+        text-align: center;
+    }
+
+/******************************     TOUR     ***********************************/
+#divTour{
     background: green;
+    overflow: hidden;
+    background-image: url(Content/Images/Background/bg_tour.jpg);
+    background-repeat:no-repeat;
+    background-position:70% 20%;
 }
-#div4{
+    #divTour #contentTour {
+        width: 80%;
+        margin-left: 10%;
+        color: #FBFFF4;
+        font-size: 18px;
+        font-family: Candara;
+        text-align: justify;
+        background-color: rgba(0,0,0,0.7);
+        border: 2px solid #965050;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 20px;
+        padding-top: 0;
+        max-height: 80%;
+        overflow-Y: auto;
+    }
+    #divTour h1 {
+        font-size: 45px;
+        font-family: handsean;
+        text-align: center;
+    }
+    #divTour table{
+        width:100%;
+    }
+        #divTour table td{
+        padding-right: 5px;
+    }
+            #divTour table td span{
+        display: block;
+        height: 23px;
+        margin-left: 2px;
+        margin-right: 2px;
+        overflow: hidden;
+        width: 100%;
+    }
+        #divTour table .tableRowColored {
+        background-color: #965050;
+        color: black;
+    }
+        #divTour table .tourSalleRaw{
+    text-align: right;
+}
+
+/******************************     CONTACT     ***********************************/
+#divContact{
     background: pink;
+    overflow: hidden;
+    background-image: url(Content/Images/Background/bg_contact.JPG);
+    background-repeat:no-repeat;
+    background-position:70% 20%;
 }
-#div5{
-    background: yellow;
+    #divContact h1 {
+    font-size: 45px;
+    font-family: handsean;
+    text-align: center;
+}
+    #divContact #contentContact {
+    width: 80%;
+    margin-left: 10%;
+    color: #FBFFF4;
+    font-size: 18px;
+    font-family: Candara;
+    text-align: justify;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid #965050;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    padding-top: 0;
+    max-height: 80%;
+    overflow-Y: auto;
+}
+        #divContact #contentContact table {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    left: -2%;
+    margin-bottom: 10px;
+}
+            #divContact #contentContact table td {
+    width: 50%;
+}
+            #divContact #contentContact table a {
+    text-decoration: none;
+    color: #965050;
+}
+                #divContact #contentContact table a:hover {
+    color: #FBFFF4;
+}
+#contactFb, #contactSc, #contactYt {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    left: 50%;
+    opacity: 0.8;
+}
+#contactFb:hover, #contactSc:hover, #contactYt:hover {
+    opacity: 1;
+}
+#contactFb img, #contactSc img, #contactYt img {
+    height: 100%;
+    width: 100%;
+}
+#contactFb {
+    margin-left: -160px;
 }

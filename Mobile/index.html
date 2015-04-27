@@ -2,9 +2,35 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>The SkØreS</title>
+    <style>
+        body{
+            background-color: #965050;
+        }
+    </style>
 </head>
 <body>
-    Mobile
+<div data-role="page">
+    <div id="homeLogoContainer" data-role="header">
+        <img id="homeLogo" src="../Content/Images/Logos/skoresRond.png" />
+    </div>
+    <nav id="homeMenu">
+        <ul>
+            <a href="bio.html"><li>Biography</li></a>
+            <li class="homeMenuSpace"></li>
+            <a href="lineUp.html"><li>Line-Up</li></a>
+            <li class="homeMenuSpace"></li>
+            <a href="tour.html"><li>Tour</li></a>
+            <li class="homeMenuSpace"></li>
+            <a href="contact.html"><li>Contact</li></a>
+            <li class="homeMenuSpace"></li>
+        </ul>
+    </nav>
+</div>
 </body>
 </html>

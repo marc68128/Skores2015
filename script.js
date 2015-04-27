@@ -9,8 +9,8 @@
 }
 
 if(isMobile()) {
-    window.location.href = "/Mobile/index.html";
+    window.location.href = "Mobile/index.html";
 }
 else {
-    window.location.href = "/Full/index.html";
+    window.location.href = "Full";
 }

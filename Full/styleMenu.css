@@ -47,7 +47,7 @@
 	position: absolute; 
 	bottom: 125px; 
 	left: 50%;
-	margin-left:-319px; 
+	margin-left:-319px;
 	width:188px; 
 	z-index: 2;  
 	cursor: pointer;
@@ -113,7 +113,7 @@
 	color: #965050; 
 	position: absolute; 
 	top: 15px; 
-	left: 23px;
+	left: 50px;
 }
 #menu0-2 span{
 	font-family: handsean; 
@@ -193,7 +193,7 @@
 	position: absolute; 
 	top: 50%;
 	left: 50%;
-	margin-left:-16px; 
+	margin-left:-25px;
 	margin-top: -16px;
 }
 

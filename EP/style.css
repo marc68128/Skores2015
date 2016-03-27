@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "lemon";
+    src: url('../Content/Fonts/LemonMilk.otf');
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#mainContent{
+   width: 60%;
+   margin: auto;
+    font-family: Candara;
+}
+
+#mainContent h1{
+    font-family: lemon, "Lemon/Milk", Calibri ;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 45px;
+}
+
+#mainContent #albumimg{
+    margin-top: 5%;
+    width: 100%;
+}
+#mainContent #albumDesc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#mainContent ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#mainContent ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 33%;
+    float: left;
+}
+#mainContent ul li a{
+    width: 100%;
+    opacity: 0.8;
+}
+
+#mainContent ul li a:hover{
+    width: 100%;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#mainContent ul li img{
+   width: 100%;
+}
+
+#website{
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+    display: block;
+    background: #965050;
+    color: white;
+    font-family: Candara;
+    width: 300px;
+    height: 85px;
+    opacity: 0.8;
+}
+
+#website:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#website img{
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    margin-left: 15px;
+    display: inline-block;
+}
+#website #linkText{
+    display: inline-block;
+    position: relative;
+    top:-33px;
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: Candara;
+}
